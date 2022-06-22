@@ -34,6 +34,7 @@ public class StringCalculator
         }
         
         var result = enumerable
+            .Where(n => n <= 1000)
             .Sum();
         
         return result;

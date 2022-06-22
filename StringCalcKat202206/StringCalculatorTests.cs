@@ -84,4 +84,16 @@ public class StringCalculatorTests
         
         Assert.That(ex.Message, Is.EqualTo(expectedMessage));
     }
+    
+    [Test,
+     TestCase("1,2,3000", 3),
+     TestCase("1001,2", 2),
+     TestCase("1000,2", 1002)]
+    public void Should_return_sum_When_string_ignoring_values_over_1000
+        (string numbers, int expectedResult)
+    {
+        var result = _calculator.Add(numbers);
+        
+        Assert.That(result, Is.EqualTo(expectedResult));
+    }
 }
