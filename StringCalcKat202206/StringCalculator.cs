@@ -2,8 +2,10 @@ namespace StringCalcKat202206;
 
 public class StringCalculator
 {
-    public object Add(string empty)
+    public object Add(string numbers)
     {
-        return 0;
+        if (String.IsNullOrEmpty(numbers)) return 0;
+        
+        return 1;
     }
 }
