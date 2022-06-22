@@ -19,7 +19,8 @@ public class StringCalculatorTests
     }
     
     [Test,
-    TestCase("1", 1)]
+    TestCase("1", 1),
+    TestCase("2", 2)]
     public void Should_return_1_for_string_1(string numbers, int expectedResult)
     {
         var result = _calculator.Add(numbers);
