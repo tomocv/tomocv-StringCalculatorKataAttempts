@@ -49,4 +49,16 @@ public class StringCalculatorTests
         
         Assert.That(result, Is.EqualTo(expectedResult));
     }
+    
+    [Test,
+     TestCase("1\n2,3", 6),
+     TestCase("1\n2\n3", 6),
+     TestCase("1,2\n3", 6)]
+    public void Should_return_sum_When_string_with_three_comma_or_new_line_separated_numbers
+        (string numbers, int expectedResult)
+    {
+        var result = _calculator.Add(numbers);
+        
+        Assert.That(result, Is.EqualTo(expectedResult));
+    }
 }
