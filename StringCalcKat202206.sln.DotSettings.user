@@ -1,0 +1,11 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/Highlighting/HighlightingSourceSnapshotLocation/@EntryValue">/home/tomocv/.cache/JetBrains/Rider2022.1/resharper-host/temp/Rider/vAny/CoverageData/_StringCalcKat202206.-307116957/Snapshot/snapshot.utdcvr</s:String>
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=0c025d13_002D528b_002D4147_002D8948_002D7bbb88bc4224/@EntryIndexedValue">&lt;SessionState ContinuousTestingIsOn="True" ContinuousTestingMode="3" IsActive="True" Name="Session" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;And&gt;
+    &lt;TestAncestor&gt;
+      &lt;TestId&gt;NUnit3x::4E65CF05-D620-4DED-982A-8011737CDE19::net6.0::StringCalcKat202206.StringCalculatorTests&lt;/TestId&gt;
+    &lt;/TestAncestor&gt;
+    &lt;Project Location="/home/tomocv/RiderProjects/StringCalculatorKataAttempts/StringCalcKat202206/StringCalcKat202206" Presentation="&amp;lt;StringCalcKat202206&amp;gt;" /&gt;
+    &lt;Namespace&gt;StringCalcKat202206&lt;/Namespace&gt;
+  &lt;/And&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
