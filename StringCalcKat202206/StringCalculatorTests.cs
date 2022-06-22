@@ -71,4 +71,17 @@ public class StringCalculatorTests
         
         Assert.That(result, Is.EqualTo(expectedResult));
     }
+    
+    [Test,
+     TestCase("-1,2", "Negatives not allowed: -1"),
+     TestCase("-1,-2", "Negatives not allowed: -1,-2")]
+    public void Should_Throws_When_Negative_Inputs
+        (string numbers, string expectedMessage)
+    {
+        void Action() => _calculator.Add(numbers);
+
+        var ex = Assert.Throws<Exception>(Action);
+        
+        Assert.That(ex.Message, Is.EqualTo(expectedMessage));
+    }
 }
